@@ -1,15 +1,14 @@
-//TODO: implements Observer
 import java.util.LinkedList;
 
-class Cliente{
+class Cliente implements Observer{
 
     /**
     * Nombre del cliente
     */
     private String nombre;
 
-    // TODO: servicios
-    // * private LinkedList<Servicio> servicios;
+
+    private LinkedList<Subject> servicios;
 
     /**
     * La cantidad de diner del cliente
@@ -21,12 +20,10 @@ class Cliente{
     // ? Tengo duda del contrato aun xd?
     // * private LinkedList<Contrato> contratos;
 
-    /**
-    * Lista donde se guardan las recomendaciones del mes por cada servicio del cliente
-    * ? Mi idea es tener una lista de las recomendaciones de cada servicio, como ves?
-    * Se imprimirian en plan, memeflix recomienda : Avengers y asi 
-    */
-    LinkedList<String> recomendacionesDelMes;
+
+    // * Mi idea es que cada que llegue la recomencacion de un servicio, imprimirla o guardarla en el txt
+    /** Recomendacion del mes de un servicio */
+    String recomendacionDelMes;
 
     /**
     * Metodo contrusctor de un cliente
@@ -38,8 +35,25 @@ class Cliente{
         this.nombre = nombre;
         this.dinero = dinero;
         recomendacionesDelMes = new LinkedList<String>();
+        this.servicios = new LinkedList<Servicio>();
     }
 
-    // TODO: Actualizar recomendaciones
-    // * public void actualizarRecomendaciones()
+    public void setRecomendacion(String recomendacion){
+
+        this.recomendacionDelMes = recomendacion;
+    }
+
+    /**
+     * Metodo para actualizar a un cliente cuando pasa un mes
+     * @param recomendacion La recomendacion recibida del servicio
+     * @param servicio El nombre del servicio que recomienda 
+     */
+
+     // ? Si solo vamos a imprimir la recomendacion es necesario tenerla como atributo?
+    public void update(String recomendacion, String servicio){
+
+        System.out.println(
+            this.nombre + " " + servicio + " te recomienda " + recomendacion
+        );
+    }
 }
