@@ -1,0 +1,100 @@
+// Ejemplo de impresion de la simulacion
+//
+// Mes:
+// Servicio de Streaming
+// Cliente
+// Tipo de suscripcion/contrato
+// Saldo del cliente
+// Mensajes/notificaciones
+// Sugerencias/recomendaciones 
+//
+// Para ser más claros:
+//
+//
+// Enero:
+//
+// Memetflix 
+// Alicia
+// 4 dispositivos
+// 1200 - 180
+// "Bienvenido a Memetflix"
+// "Te recomendamos ver: ....."
+// 
+// Bob
+// 4 dispositivos
+// 700 - 180
+// "Bienvenido a Memetflix"
+// "Te recomendamos ver: ....."
+//
+//
+//
+//
+
+// Momazon Prime Video
+//
+// Alicia
+// Version premium
+// 1020 - 860
+// "Bienvenido a la experiencia de Momazon Prime Video PREMIUM"
+// "Te recomendamos ver: ....."
+//
+// Bob
+// 520 - 860
+// "No cuentas con el saldo suficiente para contratar nuesto servicio"
+// "Por favor prueba nuevamente cuando tu saldo sea suficiente"
+//
+//
+//
+//
+// Twitsh
+//
+// Alicia
+// premium
+// 860 - 90
+// "Te damos la bienvenida a Twitsh"
+// "Te recomendamos ver: ....."
+//
+// Bob
+// premium
+// 520 - 90
+// "Te damos la bienvenida a Twitsh"
+// "Te recomendamos ver: ....."
+//
+//
+//
+//
+// Thisney+
+//
+// Alicia
+// normal
+// 770 - 120
+// "Gracias por contratar Thisney+"
+// "Te recomendamos ver: ....."
+//
+// Bob 
+// normal
+// 430 -120
+// "Gracias por contratar Thisney+"
+// "Te recomendamos ver: ....."
+//
+//
+//
+// HVO Max
+//
+// Alicia
+// normal
+// 650
+// "Te damos la bienvenida a HVO Max"
+// "Te recomendamos ver: ....."
+//
+// Bob
+// normal
+// 310
+// "Te damos la bienvenida a HVO Max"
+// "Te recomendamos ver: ....."
+
+// Febrero
+//
+// ...
+//
+// Diciembre
